@@ -8,6 +8,10 @@
 
 // Your code :
 
+let id = ["1", "2", "5"];
+let last = id.shift();
+return(last);
+
 //* Begin of tests
 const assert = require('assert')
 
