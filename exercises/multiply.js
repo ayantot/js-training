@@ -9,6 +9,20 @@
  */
 
 // Your code :
+function multiply(a, b) {
+    var aIsNegative = a < 0 && b > 0;
+    var bIsNegative = a > 0 && b < 0;
+    var isResultNegative = aIsNegative || bIsNegative;
+     
+    a = Math.abs(a);
+    b = Math.abs(b);
+    var result = 0;
+    for (var i = 0; i < a; i++) {
+      result += b;
+    }
+     
+    return isResultNegative ? -result : result;
+  }
 
 //* Begin of tests
 const assert = require('assert')

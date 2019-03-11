@@ -5,6 +5,15 @@
  * and return the total
  *
  */
+let a = 0;
+let b = 0;
+
+function total([]){
+    for (let b=0; index < total.length; b++){
+        a = total[b];
+    }
+}
+return a;
 
 
 //* Begin of tests
